@@ -2,39 +2,72 @@
     "name" : "Niko Kurtti",
     "email" : "n1ko@salaliitto.com",
     "phone" : "040-7501865",
+    "main_url" : "https://github.com/n1koo",
     "summary" : [
-      { "item" : "awesome guy" },
-      { "item" : "totally awesome" }
+       { "item" : "Tinkerer with keen interest in open source technologies. Background in software design,
+                   but experience in doing infrastructure design starting from hardware and extending to configuring 
+                   virtualization platforms and application servers. Interested in monitoring, testing and automatization." },
+    ],
+    "education" : [
+       { "item" : "Master's degree, Software engineering, Information security, 2007-2013, TTY" }
+       { "item" : "Thesis studied modern high availability architectures when implementing web applications" }
     ],
     "skills" : [
-     { 
-     	"name" : "Linux",
-     	"description" : "Expert"
-     },
-     {
-     	"name" : "Clojure",
-     	"description" : "newbie"
-     },
+       { 
+       	"name" : "Linux",
+       	"description" : "Expert"
+       },
+       {
+       	"name" : "Clojure",
+       	"description" : "newbie"
+       },
+     ],
+     "non_tech_skills" : [
+       { 
+        "name" : "Finnish",
+        "description" : "Native"
+       },
+       {
+        "name" : "English",
+        "description" : "Fluent"
+       },
+       {
+       "name" : "Driving license",
+        "description" : "BC"
+       },
      ],
      "employment_history" : [
-     {
-       "employer" : "Solita Oy",
-       "location" : "Tampere, Finland",
-       "title" : "DevOps Engineer",
-       "date" : "04/2014->",
-       "description" : [
-         { "item" : "Architecting scalable and automated service platforms for Web applications. Monitoring and coding everything and enjoying the new open source tools. Work done with tight collaboration with our project developers to give our customers a SaaS experience they deserve." },
-         { "item" : "Foobar" }
-       ]
-     },
-     {
-       "employer" : "Axu TM",
-       "location" : "Tampere, Finland",
-       "title" : "Systems Management Consultant",
-       "date" : "11/2009-01/2012",
-       "description" : [
-       { "item" : "Consulting customers in *NIX system administration and how to improve their infrastructre." }
-       ]
-     }
+       {
+         "employer" : "Solita Oy",
+         "location" : "Tampere, Finland",
+         "title" : "DevOps Engineer",
+         "date" : "05/2014->",
+         "description" : [
+           { "item" : "Architecting scalable and automated service platforms for Web applications. 
+           Monitoring and coding everything and enjoying the new open source tools." },
+           { "item" : "Opscode Chef, Cloud, Ruby, Linux, HA, SaaS, Virtualization, Nginx" }
+         ]
+       },
+       {
+         "employer" : "Solita Oy",
+         "location" : "Tampere, Finland",
+         "title" : "Software Developer",
+         "date" : "03/2010-05/2014",
+         "description" : [
+           { "item" : "Daily work consists of drinking coffee and creating tailored services for demanding customers. 
+                       Technologies include Java,Wicket and Javascript, but of course SQL is involved in the mix too." },
+           { "item" : "Java, Spring, Wicket, Tomcat, Glassfish, MySQL, Oracle SQL, Javascript, JMeter" }
+         ]
+       },
+       {
+         "employer" : "Axu TM",
+         "location" : "Tampere, Finland",
+         "title" : "Systems Management Consultant",
+         "date" : "11/2009-01/2012",
+         "description" : [
+         { "item" : "Consulting customers in *NIX system administration and how to improve their infrastructre." },
+         { "item" : "Linux, Apache, Postfix, Chroot, Virtualization" }
+         ]
+       }
     ]
 }
