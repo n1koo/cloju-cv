@@ -8,7 +8,9 @@
    (render-file
              "templates/index"
              {:name (get-in cv_data [:name])
-              :pic (gravatar (get-in cv_data [:email]) :size 200)
+              :email (get-in cv_data [:email])
+              :phone (get-in cv_data [:phone])
+              :pic (gravatar (get-in cv_data [:email]) :default :mm :size 200 :https false)
               :skills (get-in cv_data [:skills])
               :summary (get-in cv_data [:summary])
               :employment (get-in cv_data [:employment_history])
