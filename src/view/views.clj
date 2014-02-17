@@ -3,5 +3,5 @@
 
 (defn index-page []
    (render-file
-             "hello"
-             {:name "Niko"}))
+             "templates/index"
+             {:name "Niko Kurtti"}))
