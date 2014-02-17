@@ -1,8 +1,8 @@
 #skills{margin-bottom:25px}
 #summary ol{padding-left: 15px;}
 #summary ol li{line-height:1.8em;font-size:1.2em;margin-left:0}
-th{padding-right:.75em;padding-bottom:5px;border-right:solid 2px #ddd;color:#999;text-align:right;font-weight:400}
-td{padding-left:.75em;letter-spacing:-.04em}
+th{padding-right:.75em;padding-bottom:25px;border-right:solid 2px #ddd;color:#999;text-align:right;font-weight:400}
+td{padding-left:.75em;padding-bottom:25px;letter-spacing:-.04em}
 img {
     max-width: 100%;
     height: auto;

@@ -11,7 +11,7 @@
               :email (get-in cv_data [:email])
               :phone (get-in cv_data [:phone])
               :pic (gravatar (get-in cv_data [:email]) :default :mm :size 150 :https false)
-              :main_url (get-in cv_data [:main_url])
+              :url (get-in cv_data [:url])
               :summary (get-in cv_data [:summary])
               :education (get-in cv_data [:education])
               :skills (get-in cv_data [:skills])

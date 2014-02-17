@@ -8,18 +8,38 @@
                    but experience in doing infrastructure design starting from hardware and extending to configuring 
                    virtualization platforms and application servers. Interested in monitoring, testing and automatization." },
     ],
+    "url" : [
+       { "item" : "http://github.com/n1koo" }
+       { "item" : "https://twitter.com/n1kooo" }
+       { "item" : "https://tasting.solita.fi/chef" }
+       { "item" : "https://tasting.solita.fi/cattle.pdf" }
+    ],
     "education" : [
        { "item" : "Master's degree, Software engineering, Information security, 2007-2013, TTY" }
        { "item" : "Thesis studied modern high availability architectures when implementing web applications" }
     ],
     "skills" : [
        { 
-       	"name" : "Linux",
-       	"description" : "Expert"
+       	"name" : "Operating systems",
+       	"description" : "13+ years of experience with Linux. Hands on experience with Solaris and FreeBSD. 
+                        Familiar with the main distributions and package manager, GNU tools etc.
+                        Basics of Windows Server (and AD)"
+       },
+       { 
+        "name" : "DevOps tools",
+        "description" : "Most familiar with Opscode Chef, but also some knowledge of Puppet and Ansible. 
+                         Vagrant, Jenkins etc are familiar and used daily"
+       },
+       { 
+        "name" : "Programming",
+        "description" : "Basics of Ruby, Perl and Python, plenty of usage with Chef and hacking little scripts together. 
+                         3+ years of professional work experience with Java EE.
+                         Total newbie with Clojure (and other functional languages) but interested in. "
        },
        {
-       	"name" : "Clojure",
-       	"description" : "newbie"
+        "name" : "Miscellanous",
+        "description" : "Familiar with basic level of networking (routing, VPN, firewall, IPv6 etc).
+                         Experience with Dell, HP and IBM server hardware."
        },
      ],
      "non_tech_skills" : [
@@ -34,6 +54,10 @@
        {
        "name" : "Driving license",
         "description" : "BC"
+       },
+        {
+       "name" : "Fixing VW Beetles",
+        "description" : "Basics"
        },
      ],
      "employment_history" : [

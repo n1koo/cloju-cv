@@ -25,6 +25,7 @@ To start a web server for the application, run:
  - Better technologies listing
  - Styling
  - Editing and persisting data
+ - Linkedin API integration?
 
 ## License
 
