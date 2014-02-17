@@ -14,14 +14,13 @@
 
 (defn in-dev? [& args] true) ;; TODO read a config variable from command line, env, or file?
 
-(defn dev-mode []
-  (stencil.loader/set-cache (clojure.core.cache/ttl-cache-factory {} :ttl 0))
-  (reload/wrap-reload (site #'app-routes)))
-
 (defn -main [& args] 
   (let [handler (if (in-dev? args)
-                 (dev-mode)
+               (do (stencil.loader/set-cache (clojure.core.cache/ttl-cache-factory {} :ttl 0))
+                   (reload/wrap-reload (site #'app-routes)))
                  (site app-routes))]
     (run-server handler {:port 8080})))
 
 ;; edn
+
+

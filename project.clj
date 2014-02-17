@@ -6,7 +6,8 @@
                  [stencil "0.3.3"]
                  [ring/ring-devel "1.2.1"]
                  [ring/ring-core "1.2.1"]
-                 [http-kit "2.1.16"]]
+                 [http-kit "2.1.16"]
+                 [clavatar "0.2.1"]]
   :main app
   :profiles
   {:dev {:dependencies [
