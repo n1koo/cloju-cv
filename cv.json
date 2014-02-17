@@ -1,16 +1,14 @@
-[
-  {
+{
     "name" : "Niko Kurtti",
     "email" : "n1ko@salaliitto.com",
     "skills" : [
      { 
      	"name" : "Linux",
-     	"level" : "Expre"
+     	"description" : "Expre"
      },
      {
      	"name" : "Clojure",
-     	"level" : "newbie"
+     	"description" : "newbie"
      }
     ]
-  }
-]
+}
