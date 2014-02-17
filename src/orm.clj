@@ -1,5 +1,4 @@
 (ns orm
- (require [clojure.data.json :as json]))
+ (:require [cheshire.core :refer :all]))
 
-(def read-json (json/read-str (slurp "cv.json")
-                :key-fn keyword))
+(def read-json (parse-string (slurp "cv.json") true))

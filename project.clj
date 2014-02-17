@@ -7,8 +7,9 @@
                  [ring/ring-devel "1.2.1"]
                  [ring/ring-core "1.2.1"]
                  [http-kit "2.1.16"]
-                 [org.clojure/data.json "0.2.4"]
-                 [clavatar "0.2.1"]]
+                 [cheshire "5.3.1"]
+                 [clavatar "0.2.1"]
+                 [twitter-api "0.7.5"]]
   :main app
   :profiles
   {:dev {:dependencies [

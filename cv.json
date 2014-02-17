@@ -6,16 +6,16 @@
     "summary" : [
        { "item" : "Tinkerer with keen interest in open source technologies. Background in software design,
                    but experience in doing infrastructure design starting from hardware and extending to configuring 
-                   virtualization platforms and application servers. Interested in monitoring, testing and automatization." },
+                   virtualization platforms and application servers. Interested in monitoring, testing and automatization." }
     ],
     "url" : [
-       { "item" : "http://github.com/n1koo" }
-       { "item" : "https://twitter.com/n1kooo" }
-       { "item" : "https://tasting.solita.fi/chef" }
+       { "item" : "http://github.com/n1koo" },
+       { "item" : "https://twitter.com/n1kooo" },
+       { "item" : "https://tasting.solita.fi/chef" },
        { "item" : "https://tasting.solita.fi/cattle.pdf" }
     ],
     "education" : [
-       { "item" : "Master's degree, Software engineering, Information security, 2007-2013, TTY" }
+       { "item" : "Master's degree, Software engineering, Information security, 2007-2013, TTY" },
        { "item" : "Thesis studied modern high availability architectures when implementing web applications" }
     ],
     "skills" : [
@@ -40,7 +40,7 @@
         "name" : "Miscellanous",
         "description" : "Familiar with basic level of networking (routing, VPN, firewall, IPv6 etc).
                          Experience with Dell, HP and IBM server hardware."
-       },
+       }
      ],
      "non_tech_skills" : [
        { 
@@ -58,7 +58,7 @@
         {
        "name" : "Fixing VW Beetles",
         "description" : "Basics"
-       },
+       }
      ],
      "employment_history" : [
        {
