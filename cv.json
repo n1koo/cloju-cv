@@ -4,11 +4,32 @@
     "skills" : [
      { 
      	"name" : "Linux",
-     	"description" : "Expre"
+     	"description" : "Expert"
      },
      {
      	"name" : "Clojure",
      	"description" : "newbie"
+     },
+     ],
+     "employment_history" : [
+     {
+       "employer" : "Solita Oy",
+       "location" : "Tampere, Finland",
+       "title" : "DevOps Engineer",
+       "date" : "04/2014->",
+       "description" : [
+         { "item" : "Architecting scalable and automated service platforms for Web applications. Monitoring and coding everything and enjoying the new open source tools. Work done with tight collaboration with our project developers to give our customers a SaaS experience they deserve." },
+         { "item" : "Foobar" }
+       ]
+     },
+     {
+       "employer" : "Axu TM",
+       "location" : "Tampere, Finland",
+       "title" : "Systems Management Consultant",
+       "date" : "11/2009-01/2012",
+       "description" : [
+       { "item" : "Consulting customers in *NIX system administration and how to improve their infrastructre." }
+       ]
      }
     ]
 }
