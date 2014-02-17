@@ -1,6 +1,11 @@
 {
     "name" : "Niko Kurtti",
     "email" : "n1ko@salaliitto.com",
+    "phone" : "040-7501865",
+    "summary" : [
+      { "item" : "awesome guy" },
+      { "item" : "totally awesome" }
+    ],
     "skills" : [
      { 
      	"name" : "Linux",
