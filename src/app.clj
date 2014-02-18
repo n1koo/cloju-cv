@@ -21,6 +21,5 @@
                  (site app-routes))]
     (run-server handler {:port 8080})))
 
-;; edn
 
 

@@ -1,7 +1,8 @@
 (ns view.views
   (:use stencil.core
   	    clavatar.core
-  	    orm))
+  	    orm
+        twitter))
 
 (defn index-page []
 	(let [cv_data read-json]
@@ -17,4 +18,5 @@
               :skills (get-in cv_data [:skills])
               :non_tech_skills (get-in cv_data [:non_tech_skills])
               :employment (get-in cv_data [:employment_history])
+              :twitter (get-latest-tweet-msgs 5)
              })))

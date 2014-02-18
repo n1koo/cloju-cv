@@ -2,7 +2,7 @@
           <div class="jumbotron">
           	  <div> <img src={{pic}}></div>
 	          <h1>{{name}}</h1>
-	          </hr>
+	          <hr />
 	         <div>
 	            <div>{{email}}</div>
 	            <div>{{phone}}</div>
@@ -12,8 +12,10 @@
         	 </div>
         </div>
           <div class="jumbotron">
-         	{{#url}}
-            <div>{{item}}</div>
-			{{/url}}
+          <h3>What i'm rambling about</h3>
+          {{#twitter}}
+            <div>{{text}}</div><hr />
+            {{/twitter}}
           </div>
 </div>
+
