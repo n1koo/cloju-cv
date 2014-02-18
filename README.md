@@ -6,12 +6,14 @@ Simple CV template thingie.
 * Stencil
 * HTTP-kit
 * Ring
+* twitter-api
+* Cheshire
+
+Running example can be found at [n1ko.salaliitto.com][1]
 
 ## Prerequisites
 
-You will need [Leiningen][1] 1.7.0 or above installed.
-
-[1]: https://github.com/technomancy/leiningen
+You will need [Leiningen][2] 1.7.0 or above installed.
 
 Your cv should be in the same directory as where you are running the app from (and named cv.json).
 Repository contains mine for reference.
@@ -47,3 +49,6 @@ To start a web server for the application, run:
 ## License
 
 This project is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+[1]: http://n1ko.salaliitto.com
+[2]: https://github.com/technomancy/leiningen
