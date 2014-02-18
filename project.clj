@@ -9,10 +9,12 @@
                  [http-kit "2.1.16"]
                  [cheshire "5.3.1"]
                  [clavatar "0.2.1"]
+                 [javax.servlet/servlet-api "2.5"]
                  [twitter-api "0.7.5"]]
   :main app
+  :aot :all
   :profiles
   {:dev {:dependencies [
                         [ring-mock "0.1.5"]
-                        [javax.servlet/servlet-api "2.5"]
+                        
                         ]}})

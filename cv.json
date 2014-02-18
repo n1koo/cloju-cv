@@ -28,7 +28,8 @@
        { 
         "name" : "DevOps tools",
         "description" : "Most familiar with Opscode Chef, but also some knowledge of Puppet and Ansible. 
-                         Vagrant, Jenkins etc are familiar and used daily"
+                         Vagrant, Jenkins etc are familiar and used daily. 
+                         Lots of experience with shell scripting."
        },
        { 
         "name" : "Programming",
@@ -38,7 +39,7 @@
        },
        {
         "name" : "Miscellanous",
-        "description" : "Familiar with basic level of networking (routing, VPN, firewall, IPv6 etc).
+        "description" : "Familiar with networking (routing, VPN, firewalls, IPv6 etc).
                          Experience with Dell, HP and IBM server hardware."
        }
      ],
@@ -65,7 +66,7 @@
          "employer" : "Solita Oy",
          "location" : "Tampere, Finland",
          "title" : "DevOps Engineer",
-         "date" : "05/2014->",
+         "date" : "05/2013->",
          "description" : [
            { "item" : "Architecting scalable and automated service platforms for Web applications. 
            Monitoring and coding everything and enjoying the new open source tools." },
@@ -76,7 +77,7 @@
          "employer" : "Solita Oy",
          "location" : "Tampere, Finland",
          "title" : "Software Developer",
-         "date" : "03/2010-05/2014",
+         "date" : "03/2010-05/2013",
          "description" : [
            { "item" : "Daily work consists of drinking coffee and creating tailored services for demanding customers. 
                        Technologies include Java,Wicket and Javascript, but of course SQL is involved in the mix too." },
