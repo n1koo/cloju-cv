@@ -11,7 +11,7 @@
                  [clavatar "0.2.1"]
                  [javax.servlet/servlet-api "2.5"]
                  [twitter-api "0.7.5"]]
-  :main app
+  :main cloju-cv.app
   :aot :all
   :profiles
   {:dev {:dependencies [

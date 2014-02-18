@@ -1,4 +1,4 @@
-(ns twitter
+(ns cloju-cv.twitter
    (:use
    [twitter.oauth]
    [twitter.callbacks]

@@ -1,10 +1,11 @@
-(ns app
+(ns cloju-cv.app
   (:use [org.httpkit.server :only [run-server]]
         [compojure.handler :only [site]]
         [compojure.core :only [defroutes GET POST]]
-        view.views)
+        cloju-cv.view.views)
   (:require [compojure.route :as route]
-            [ring.middleware.reload :as reload]))
+            [ring.middleware.reload :as reload])
+  (:gen-class))
 
 (defroutes app-routes
   (GET "/" [] (index-page))

@@ -1,8 +1,8 @@
-(ns view.views
+(ns cloju-cv.view.views
   (:use stencil.core
   	    clavatar.core
-  	    orm
-        twitter))
+  	    cloju-cv.orm
+        cloju-cv.twitter))
 
 (defn index-page []
 	(let [cv_data read-json]
