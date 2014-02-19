@@ -15,11 +15,8 @@ Running example can be found at [n1ko.salaliitto.com][1]
 
 You will need [Leiningen][2] 1.7.0 or above installed.
 
-Your cv should be in the same directory as where you are running the app from (and named cv.json).
+Your cv and twitter_cred paths should be configured in the cloju-cv.properties -file.
 Repository contains mine for reference.
-
-For the twitter-integration to work you need to also have a twitter_cred.json file
-in the same directory.
 
 Example twitter_cred.json:
 
@@ -39,7 +36,6 @@ To start a web server for the application, run:
 
 ## TODO
 
- - Parameter the twitter and cv files
  - Hobbies
  - Better technologies listing
  - Styling

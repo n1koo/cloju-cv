@@ -3,12 +3,13 @@
    [twitter.oauth]
    [twitter.callbacks]
    [twitter.callbacks.handlers]
-   [twitter.api.restful])
+   [twitter.api.restful]
+   [cloju-cv.properties])
   (:import
    (twitter.callbacks.protocols SyncSingleCallback))
   (:require [cheshire.core :refer :all]))
 
-(def read-twitter-settings (parse-string (slurp "twitter_cred.json") true))
+(def read-twitter-settings (parse-string (slurp (get-in load-props [:twitter-file])) true))
 
 (def my-creds (let [{:keys [api-key api-secret user-access-token user-access-token-secret]} read-twitter-settings] 
 				(make-oauth-creds api-key api-secret user-access-token user-access-token-secret)))

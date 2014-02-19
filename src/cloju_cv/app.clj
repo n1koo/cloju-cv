@@ -2,7 +2,8 @@
   (:use [org.httpkit.server :only [run-server]]
         [compojure.handler :only [site]]
         [compojure.core :only [defroutes GET POST]]
-        cloju-cv.view.views)
+        cloju-cv.view.views
+        cloju-cv.properties )
   (:require [compojure.route :as route]
             [ring.middleware.reload :as reload])
   (:gen-class))
@@ -13,6 +14,8 @@
   (route/resources "/")
   (route/not-found "Not Found"))
 
+
+
 (defn in-dev? [& args] true) ;; TODO read a config variable from command line, env, or file?
 
 (defn -main [& args] 
@@ -20,7 +23,7 @@
                (do (stencil.loader/set-cache (clojure.core.cache/ttl-cache-factory {} :ttl 0))
                    (reload/wrap-reload (site #'app-routes)))
                  (site app-routes))]
-    (run-server handler {:port 8080 :ip "127.0.0.1"})))
+    (run-server handler {:port (get-in load-props [:port]) :ip (get-in load-props [:ip])})))
 
 
 
