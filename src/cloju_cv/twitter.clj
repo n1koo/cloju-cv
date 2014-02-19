@@ -8,15 +8,16 @@
    (twitter.callbacks.protocols SyncSingleCallback))
   (:require [cheshire.core :refer :all]))
 
-(def my-creds (let [{:keys [api-key api-secret user-access-token user-access-token-secret]} (parse-string
-               (slurp "twitter_cred.json") true)] 
+(def read-twitter-settings (parse-string (slurp "twitter_cred.json") true))
+
+(def my-creds (let [{:keys [api-key api-secret user-access-token user-access-token-secret]} read-twitter-settings] 
 				(make-oauth-creds api-key api-secret user-access-token user-access-token-secret)))
 
 (defn get-latest-tweets [count]
 (statuses-user-timeline :callbacks (SyncSingleCallback. response-return-body 
                                                   response-throw-error
                                                   exception-rethrow) :oauth-creds my-creds :params 
-												  {:target-screen-name "n1koo" :count count}))
+												  {:target-screen-name (get-in my-creds [:screen-name]) :count count}))
 
 (defn get-latest-tweet-msgs [count]
 (parse-string (generate-string (for [x (map :text (get-latest-tweets count))] {:text x}))true))

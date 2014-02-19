@@ -24,6 +24,7 @@ in the same directory.
 Example twitter_cred.json:
 
 {
+	"screen-name" : "your-screen-name"
 	"api-key": "xxx",
 	"api-secret": "yyy",
 	"user-access-token" : "zzz",
@@ -39,7 +40,6 @@ To start a web server for the application, run:
 ## TODO
 
  - Parameter the twitter and cv files
- - Don't hard code the twitter user, read from json
  - Hobbies
  - Better technologies listing
  - Styling
