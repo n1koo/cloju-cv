@@ -17,4 +17,13 @@ img {
 .item-right {
     padding-left: 1px;
 }
+.greyblock {
+	padding: 30px;
+	margin-bottom: 30px;
+	color: inherit;
+	background-color: #eee;
+}
 
+.greyblock h1 {
+	font-size: 50px;
+}
