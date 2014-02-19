@@ -20,13 +20,13 @@ Repository contains mine for reference.
 
 Example twitter_cred.json:
 
-{
-	"screen-name" : "your-screen-name"
-	"api-key": "xxx",
-	"api-secret": "yyy",
-	"user-access-token" : "zzz",
-	"user-access-token-secret" : "vvv"
-}
+	{
+		"screen-name" : "your-screen-name"
+		"api-key": "xxx",
+		"api-secret": "yyy",
+		"user-access-token" : "zzz",
+		"user-access-token-secret" : "vvv"
+	}
 
 ## Running
 
