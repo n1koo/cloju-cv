@@ -8,11 +8,15 @@
                    but experience in doing infrastructure design starting from hardware and extending to configuring 
                    virtualization platforms and application servers. Interested in monitoring, testing and automatization." }
     ],
-    "url" : [
-       { "item" : "http://github.com/n1koo" },
-       { "item" : "https://twitter.com/n1kooo" },
-       { "item" : "https://tasting.solita.fi/chef" },
-       { "item" : "https://tasting.solita.fi/cattle.pdf" }
+    "urls" : [
+       { "name" : "n1koo @ Github",
+         "url" : "http://github.com/n1koo" },
+       { "name" : "@n1koo",
+         "url" : "https://twitter.com/n1kooo" },
+       { "name" : "Little bit about Chef",
+         "url" : "https://tasting.solita.fi/chef" },
+       { "name" : "Cattle vs Pets",
+         "url" : "https://tasting.solita.fi/cattle.pdf" }
     ],
     "education" : [
        { "item" : "Master's degree, Software engineering, Information security, 2007-2013, TTY" },
