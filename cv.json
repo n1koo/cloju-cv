@@ -39,7 +39,13 @@
         "name" : "Programming",
         "description" : "Basics of Ruby, Perl and Python, plenty of usage with Chef and hacking little scripts together. 
                          3+ years of professional work experience with Java EE.
-                         Total newbie with Clojure (and other functional languages) but interested in. "
+                         Total newbie with Clojure (and other functional languages) but interested in.
+			 Fan of Git, but can live with Mercurial and cope with SVN"
+       },
+       {
+        "name" : "Databases",
+        "description" : "Administration and development experience on MySQL, PostgreSQL, OracleSQL and MongoDB. 
+		       When administrating HA solutions have been used (Galera, replication, sharding)"
        },
        {
         "name" : "Miscellanous",

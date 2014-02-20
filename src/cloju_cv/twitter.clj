@@ -6,10 +6,7 @@
    [twitter.api.restful]
    [cloju-cv.properties])
   (:import
-   (twitter.callbacks.protocols SyncSingleCallback))
-  (:require [cheshire.core :refer :all]))
-
-(def read-twitter-settings (parse-string (slurp (get-in load-props [:twitter-file])) true))
+   (twitter.callbacks.protocols SyncSingleCallback)))
 
 (def my-creds (let [{:keys [api-key api-secret user-access-token user-access-token-secret]} read-twitter-settings] 
 				(make-oauth-creds api-key api-secret user-access-token user-access-token-secret)))
@@ -21,4 +18,4 @@
 												  {:target-screen-name (get-in my-creds [:screen-name]) :count count}))
 
 (defn get-latest-tweet-msgs [count]
-(parse-string (generate-string (for [x (map :text (get-latest-tweets count))] {:text x}))true))
+(for [tweet (get-latest-tweets count)] (select-keys tweet [:text])))
